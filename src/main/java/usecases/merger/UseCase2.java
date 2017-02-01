@@ -9,7 +9,7 @@ import java.util.List;
  */
 public class UseCase2 {
     /**
-     * Below logic written in assumption that  the use-case independent.
+     * Below logic written in assumption that  the use-case is independent.
      * @param list
      */
     public void merge(List<Employee> list) {
@@ -20,7 +20,6 @@ public class UseCase2 {
             Iterator<Employee> iterator2 = filteredList.iterator();
             boolean emplyeeExists = false;
             /**
-             * Below logic written in assumption that  the use-case independent.
              * Can be done easily by using contains() on list instead traversing through list everytime.
              */
             while (iterator2.hasNext()){
