@@ -1,5 +1,5 @@
 # DataImport
-Sample to import data into specific database.
+Sample code to import data into specific database.
 Below condition will evaluated
 
 1. If a record exists in both given list and DB it will be updated.
